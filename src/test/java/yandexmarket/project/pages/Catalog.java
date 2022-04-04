@@ -14,7 +14,7 @@ public class Catalog {
             this.driver = driver;
         }
         private By catalogClick = By.xpath("//*[@id=\"catalogPopupButton\"]");
-        public void catalogClickButton(){
+        public void catalogClick(){
             driver.findElement(catalogClick).click();
         }
         private By catalog = By.xpath("//*[@id=\"catalogPopup\"]/div/div/div/div/div/div/div[1]/div/ul/li");
